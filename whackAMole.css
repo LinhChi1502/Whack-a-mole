@@ -1,0 +1,27 @@
+body {
+    margin-top: 0;
+    margin-left: 200px;
+    cursor: url(Hammer.cur),auto;
+}
+
+table {
+    margin-top: 0px;
+}
+
+td {
+    width: 200px;
+    height: 100px;
+}
+
+.dirt {
+    position: relative;
+    width: 250px;
+    height: 67px;
+}
+
+.mole {
+    position: relative;
+    width: 150px;
+    padding: 0px 20px 50px 50px;
+    top: 100px;
+}
