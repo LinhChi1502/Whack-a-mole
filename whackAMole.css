@@ -2,6 +2,8 @@ body {
     margin-top: 0;
     margin-left: 200px;
     cursor: url(Hammer.cur),auto;
+    background: url("bgr.png");
+    background-size: 100% 100%;
 }
 
 table {
@@ -23,5 +25,16 @@ td {
     position: relative;
     width: 150px;
     padding: 0px 20px 50px 50px;
+    top: 100px;
+}
+#showScore {
+    position: absolute;
+    left: 800px;
+    top: 200px;
+    font-size: xx-large;
+}
+#start {
+    font-size: xx-large;
+    position: absolute;
     top: 100px;
 }

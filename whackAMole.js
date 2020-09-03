@@ -59,11 +59,11 @@ function checkOver() {
     function checkWin(){
         if (score === 10){
             alert("You win!");
-            myStopFunction();
+            stopFunction();
         }
     }
     let checkWinInterval = setInterval(checkWin, 1);
-    function myStopFunction() {
+    function stopFunction() {
         clearInterval(checkWinInterval);
     }
 }
