@@ -1,5 +1,5 @@
 let idValue = Math.round(Math.random() * 5);
-let setOfId = [idValue, idValue];
+let setOfId = [];
 let timeOut = false;
 let score = 0;
 
@@ -31,10 +31,11 @@ function GameBoard(mole) {
     this.start = function () {
         setInterval(
             function () {
+                if(!mole.status) {
+                    idValue = Math.round(Math.random() * 5);
+                    setOfId.unshift(idValue, idValue);
+                }
                 changeStatus(mole, setOfId.pop());
-                idValue = Math.round(Math.random() * 5);
-                setOfId.unshift(idValue, idValue);
-                mole.changeMoleId(setOfId[0]);
             }, 650);
     }
 }
