@@ -23,7 +23,7 @@ td {
 
 .mole {
     position: relative;
-    width: 150px;
+    width: 160px;
     padding: 0px 20px 50px 50px;
     top: 100px;
 }
@@ -36,5 +36,6 @@ td {
 #start {
     font-size: xx-large;
     position: absolute;
-    top: 100px;
+    top: 150px;
+    left: 500px;
 }

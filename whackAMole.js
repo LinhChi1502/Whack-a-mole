@@ -1,10 +1,10 @@
-let temp = Math.round(Math.random() * 5);
-let arr = [temp, temp];
+let idValue = Math.round(Math.random() * 5);
+let setOfId = [idValue, idValue];
 let timeOut = false;
 let score = 0;
 
 function Mole() {
-    this.id = arr[0];
+    this.id = setOfId[0];
     this.status = false;
 
     this.changeMoleId = function (id) {
@@ -31,11 +31,11 @@ function GameBoard(mole) {
     this.start = function () {
         setInterval(
             function () {
-                changeStatus(mole, arr.pop());
-                temp = Math.round(Math.random() * 5);
-                arr.unshift(temp, temp);
-                mole.changeMoleId(arr[0]);
-            }, 700);
+                changeStatus(mole, setOfId.pop());
+                idValue = Math.round(Math.random() * 5);
+                setOfId.unshift(idValue, idValue);
+                mole.changeMoleId(setOfId[0]);
+            }, 650);
     }
 }
 function hit() {

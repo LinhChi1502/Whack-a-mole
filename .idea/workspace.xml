@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75abff81-30ef-4f55-be1f-bbaec2616525" name="Default Changelist" comment="" />
+    <list default="true" id="75abff81-30ef-4f55-be1f-bbaec2616525" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whackAMole.css" beforeDir="false" afterPath="$PROJECT_DIR$/whackAMole.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whackAMole.js" beforeDir="false" afterPath="$PROJECT_DIR$/whackAMole.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gruHQm3JldDBh0tN51OXg2biEn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,7 +33,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Module1_lesson16/Xây dựng lớp mô tả điện thoại/mobile.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Module1_lesson16/[Bài tập] Phát triển game lái xe/gameCar.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -42,7 +50,8 @@
       <workItem from="1598921547613" duration="34767000" />
       <workItem from="1599011911265" duration="7898000" />
       <workItem from="1599053507666" duration="5508000" />
-      <workItem from="1599094761150" duration="12676000" />
+      <workItem from="1599094761150" duration="17082000" />
+      <workItem from="1599137057591" duration="5140000" />
     </task>
     <servers />
   </component>
@@ -62,9 +71,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599117597095" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599055396175">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599145694053">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599055396175" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599145694053" />
   </component>
 </project>
