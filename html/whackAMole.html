@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Whack A Mole</title>
+    <link rel="stylesheet" href="../css/whackAMole.css">
+</head>
+<body>
+<h1 style="margin-left: 200px">WHACK-A-MOLE</h1>
+<input type="button" id="start" value="Start" onclick="startGame(newGameBoard);">
+<p style="margin-left: 250px" id="showScore" style="text-align: center">Score: 0
+</p>
+<table>
+    <tr>
+        <td>
+            <img id="0" src="../images/mole.png" class="mole" style="visibility: hidden" onclick="hit()">
+            <img src="../images/dirt.png" class="dirt">
+        </td>
+        <td>
+            <img id="1" src="../images/mole.png" class="mole" style="visibility: hidden" onclick="hit()">
+            <img src="../images/dirt.png" class="dirt">
+        </td>
+        <td>
+            <img id="2" src="../images/mole.png" class="mole" style="visibility: hidden" onclick="hit()">
+            <img src="../images/dirt.png" class="dirt">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img id="3" src="../images/mole.png" class="mole" style="visibility: hidden" onclick="hit()">
+            <img src="../images/dirt.png" class="dirt">
+        </td>
+        <td>
+            <img id="4" src="../images/mole.png" class="mole" style="visibility: hidden" onclick="hit()">
+            <img src="../images/dirt.png" class="dirt">
+        </td>
+        <td>
+            <img id="5" src="../images/mole.png" class="mole" style="visibility: hidden" onclick="hit()">
+            <img src="../images/dirt.png" class="dirt">
+        </td>
+    </tr>
+</table>
+<script src="../js/whackAMole.js"></script>
+</body>
+</html>

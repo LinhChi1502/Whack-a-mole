@@ -1,8 +1,8 @@
 body {
     margin-top: 0;
     margin-left: 200px;
-    cursor: url(Hammer.cur),auto;
-    background: url("bgr.png");
+    cursor: url(../images/Hammer.cur),auto;
+    background: url("../images/bgr.png");
     background-size: 100% 100%;
 }
 
